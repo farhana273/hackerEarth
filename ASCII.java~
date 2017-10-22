@@ -1,0 +1,10 @@
+import java.util.*;
+public class ASCII
+{
+  public static void main(String[]args)
+  {
+   Scanner sc = new Scanner(System.in);
+   Char c = sc.nextChar();
+   System.out.println((int)c);
+  }
+}

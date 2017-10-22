@@ -1,0 +1,15 @@
+public class testCipher
+{
+  public static void main(String[]args)
+  {
+    try
+    {
+     cipherClass c = new cipherClass();
+      c.cipher();
+    }
+    catch(Exception e)
+    {
+      System.out.println(e);
+    }
+  }
+}

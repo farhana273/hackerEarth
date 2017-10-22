@@ -1,0 +1,13 @@
+import java.util.*;
+public class Divisor
+{
+  public static void main(String[]args)
+  {
+   Scanner sc = new Scanner(System.in);
+   String s = sc.next();
+   StringTokenizer st = new StringTokenizer(s," ");
+   int l = Integer.parseInt(st.nextToken());
+   int r = Integer.parseInt(st.nextToken());
+   int k = Integer.parseInt(st.nextToken());
+  }
+}
